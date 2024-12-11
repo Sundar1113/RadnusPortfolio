@@ -1,0 +1,169 @@
+.internshipExperience {
+  padding-top: 5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  font-family: "Barlow Condensed";
+  color: #fff;
+}
+
+.internshipHeader {
+  text-align: center;
+  font-weight: 600;
+}
+
+.internshipHeader h1 {
+  font-size: 3rem;
+  color: #64ffda;
+}
+
+.internshipHeader div {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.internshipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Increased gap for more spacing */
+  justify-content: center;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.internshipItem {
+  position: relative;
+  width: 28%; /* Adjusted width for better spacing */
+  display: flex;
+  flex-direction: column;
+  background-color: #112240;
+  border: 2px solid #64ffda;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.internshipItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px -15px rgba(2, 12, 27, 0.7);
+  cursor: pointer;
+  animation: zoom 0.2s ease-in-out normal forwards;
+}
+
+.internshipItem h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #64ffda;
+}
+
+.internshipDescription {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.internshipDuration {
+  font-size: 1.2rem;
+}
+
+.logoContainer {
+  position: relative;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #64ffda;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logoContainer img {
+  max-height: 100%;
+  border-radius: inherit;
+}
+
+.overlayLink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logoContainer:hover .overlayLink {
+  opacity: 1;
+}
+
+.overlayLink a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #64ffda;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .internshipExperience {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .internshipHeader h1 {
+    font-size: 2.5rem;
+  }
+
+  .internshipHeader div {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .internshipList {
+    gap: 1rem; /* Adjusted gap for smaller screens */
+  }
+
+  .internshipItem {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .internshipItem h3 {
+    font-size: 1.7rem;
+  }
+
+  .internshipDescription {
+    font-size: 1.2rem;
+  }
+
+  .internshipDuration {
+    font-size: 1rem;
+  }
+
+  .logoContainer {
+    height: 7rem;
+  }
+
+  .overlayLink a {
+    font-size: 1.5rem;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
