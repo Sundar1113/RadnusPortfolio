@@ -43,7 +43,7 @@ const DUMMY_PROJECTS=[
     },
     {
         projectTitle:'Stop Watch',
-        description: 'It is a website made to demopnstrate the stopwatch function ',
+        description: 'It is a website made to demonstrate the stopwatch function ',
         sourceLink:'https://github.com/killer-abhi/space-tour.git',
         lastUpdated:'Nov 2023'
     },

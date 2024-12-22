@@ -32,7 +32,7 @@ const EducationData={
     details:[
         'I joined my college in 2022. Cleared First and Second Year with a good academic performance.',
         'I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, COA, AI etc.',
-        ' Apart from this, I have done courses on Programming in c++, Data Science, Cloud Computing and Full Stack Development.'
+        ' Apart from this, I have done courses on Software Dvelopment, cloud Computing and Full Stack Development.'
     ],
     codingStatus:languagesDone
 }

@@ -1,6 +1,4 @@
 import React, { Fragment, useState } from "react";
-
-
 import classes from "./contactForm.module.css";
 import Button from "../UI/Button";
 import useInput from "../../hooks/useInput";
